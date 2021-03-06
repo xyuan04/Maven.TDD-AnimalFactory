@@ -21,6 +21,7 @@ public abstract class Mammal implements Animal {
         this.id = id;
     }
 
+
     public String getName() {
         return name;
     }
@@ -50,4 +51,6 @@ public abstract class Mammal implements Animal {
     public Integer getId() {
         return id;
     }
+
+
 }
